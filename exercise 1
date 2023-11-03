@@ -1,0 +1,60 @@
+/*
+DECLARE WIDTH EQUALS TO 3
+DECLARE LENGTH EQUALS TO 5
+DECLARE AREA
+
+AREA EQUALS TO WIDTH multiply LENGTH 
+
+PRINT AREA
+*/
+let width = 3;
+let length = 5;
+let area; 
+
+area = width * length;
+
+console.log(area);
+
+let parimeter = 2 * (width + length);
+
+console.log(parimeter);
+
+
+let radius = 5 // diketahui radius
+result = 2*(panjang+lebar) // hasil panjang+lebar
+console.log(result) // tampilkan hasil
+
+result = 2*radius // hasil 2*radius
+console.log(result)
+
+result = 2*22/7*radius // hasil mencari keliling lingkaran
+console.log(result);
+
+result = Math.PI*radius**2 // hasil mencari luas lingkaran
+console.log(result);
+
+let a = 80 // sudut a
+let b = 65 // sudut b
+result = 180-a-b // hasil mencari sudut ketiga
+console.log(result);
+
+let date1 = new Date("2022-01-20");
+let date2 = new Date("2022-01-22");
+
+console.log((date2-date1)/1000/3600/24);
+
+let day = 400
+let year = Math.floor(day/365)
+let month = Math.floor((day%365)/30)
+result = day%365%30
+console.log(` ${day} day -> ${year} year, ${month} month, ${result} days`);
+
+day = 366
+result = day%365%30
+console.log(` ${day} day -> ${year} year, ${month} month, ${result} days`);
+
+
+
+
+
+
